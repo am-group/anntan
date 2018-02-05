@@ -768,7 +768,7 @@ filter:progid: DXImageTransform.Microsoft.gradient(startColorstr='#c9b379', endC
 	width: 100%
 }
 #inner_content_textarea ol {
-	width: 100%;
+	width: auto;
 	margin: 0 0 20px;
 	float: left
 }
