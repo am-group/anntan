@@ -13,6 +13,10 @@ body {
 	margin: 0;
 	padding: 0
 }
+.message-height{
+	padding-top:15px;
+	font-size:15px;
+}
 .g-recaptcha {
 	transform: scale(.77);
 	transform-origin: 0 0;
@@ -3086,6 +3090,10 @@ footer {
 	margin: 0;
 	padding: 0;
 	max-width: 96%
+}
+.message-height{
+	padding-top:7px;
+	font-size:15px;
 }
 #red_header {
 	width: 100%;
@@ -11358,6 +11366,10 @@ footer {
 }
 #box_3_area, #box_4_area {
 	background-position: right top
+}
+.message-height{
+	padding-top:15px;
+	font-size:15px;
 }
 .site {
 	margin: 0;
