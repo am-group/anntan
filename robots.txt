@@ -1,5 +1,9 @@
 User-agent: *
 
+
+
 Disallow: 
 
-Sitemap: http://www.anntan.com.sg/sitemap.xml
+
+
+Sitemap: https://www.anntan.com.sg/sitemap.xml

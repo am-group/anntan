@@ -15606,3 +15606,67 @@ a.call_tel_text {
     font-size: 9px!important;
 }
 }
+
+
+#flower_contactinfo_area {
+    width: 100%;
+    margin-top: 50px;
+}
+
+#flower_contactinfo_content {
+    margin: 0;
+    width: 100%;
+}
+
+.flower_contactinfo_text_wrapper {
+    display: inline-block;
+    width: 100%;
+}
+
+.flower_contactinfo_map_wrapper {
+    width: 100%;
+    display: inline-block;
+    margin-top: 15px;
+    vertical-align: top;
+}
+
+
+@media (min-width: 1024px) {
+    .flower_contactinfo_text_wrapper {
+        width: auto;
+    }
+
+    .flower_contactinfo_map_wrapper {
+        width: 50%;
+        margin-top: 0;
+    }
+}
+
+
+.footer_contactinfo_left_wrapper {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    vertical-align: top;
+}
+
+.footer_contactinfo_map_wrapper {
+    display: inline-block;
+    width: 100%;
+    margin-top: 30px;
+    vertical-align: top;
+}
+
+
+@media (min-width: 1024px) {
+    .footer_contactinfo_left_wrapper {
+        width: 49%;
+        margin-right: 2%;
+        float: left;
+    }
+
+    .footer_contactinfo_map_wrapper {
+        width: 48%;
+        margin: 0;
+    }
+}

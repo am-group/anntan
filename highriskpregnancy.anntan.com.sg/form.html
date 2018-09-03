@@ -1,0 +1,30 @@
+<script src="js/jquery-1.8.0.min.js" type="text/javascript"></script>
+<script src="js/captcha.js" type="text/javascript"></script>   
+
+<form action="http://ebasoft.com.sg/activamedia/admin/mailscript.asp" method="post" name="form1" id="form1">
+  <input type="hidden" name="Subject" value="High Risk Pregnancy Doctor, High Risk Pregnancy Clinic, High Risk Pregnancy Conditions | Women Fertility & Fetal Centre - Contact Form">
+  <input type="hidden" name="SendTo" value="mail@dranntan.com">
+  <input type="hidden" name="Failed" value="contact-us-failed.html">
+  <input type="hidden" name="Success" value="contact-us-successful.html">
+  <input type="hidden" name="URL" value="highriskpregnancy.anntan.com.sg">
+  <div class="col-xs-12">
+    <input class="contact-input" type="text" id="name" name="Name" value="" placeholder="Name:*">
+  </div>
+  <div class="col-xs-12">
+    <input class="contact-input" type="text" id="mobile" name="Contact No" value="" placeholder="Contact No:*">
+  </div>
+  <div class="col-xs-12">
+    <input class="contact-input" type="text" id="email" name="Email" value="" placeholder="Email:*">
+  </div>
+  <div class="col-xs-12">
+    <textarea class="contact-message" rows="10" id="message" cols="30" name="Message" placeholder="Message:"></textarea>
+  </div>
+  <div class="col-xs-12">
+    <div id="captchadiv" class="g-recaptcha"></div>
+  </div>
+  <div class="submit-respond col-xs-12">
+    <input name="SubmitForm" type="submit" class="submitCls contact-submit" id="submitBtn" value="SUBMIT ENQUIRY">
+  </div>
+</form>
+
+<script src="https://www.google.com/recaptcha/api.js?onload=captchaCallback&render=explicit" async defer></script>

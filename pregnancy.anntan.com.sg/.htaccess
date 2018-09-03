@@ -1,0 +1,5 @@
+# RewriteEngine on  
+# 
+# RewriteCond %{HTTPS} off
+# RewriteCond %{HTTP_HOST} ^((?!www\.)[^.]+)\.anntan\.com\.sg$
+# RewriteRule ^ https://%1.anntan.com.sg%{REQUEST_URI} [NE,L,R]
