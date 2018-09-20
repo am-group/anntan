@@ -1,9 +1,13 @@
 User-agent: *
 
-
-
 Disallow: 
-
-
+Disallow: /ch/health-screening.html
+Disallow: /ch/media.html
+Disallow: /ch/obstetrics.html
+Disallow: /ch/our-services.html
+Disallow: /ch/patient-info.html
+Disallow: /ch/gynaecology/
+Disallow: /ch/media/
+Disallow: /ch/patient-info/
 
 Sitemap: https://www.anntan.com.sg/sitemap.xml
