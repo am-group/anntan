@@ -222,6 +222,17 @@ location.href = "tel:" + defNum;
 
 <!-- AVANSER Call Tracking [stop] -->
 
+<!-- Global site tag (gtag.js) - Google Ads: 1031934697 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-1031934697">
+</script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-1031934697');
+</script>
+
 </head>
 
 
@@ -465,149 +476,7 @@ location.href = "tel:" + defNum;
                     <div style="clear:both;"></div>
 
                     <div id="enquiry_form">
-
-                    	<form action="http://ebasoft.com.sg/activamedia/admin/mailscript.asp" method="post" name='form1' id="form1">
-
-                        <input type="hidden" name="Subject" value="Dr Ann Tan| IVF, Fertility Specialist, Gynaecologist & Obstetrician - Enquiry" />
-
-						<input type="hidden" name="SendTo" value="mail@dranntan.com" />
-
-                        <input type="hidden" name="Failed" value="contact-us.html" />
-
-                        <input type="hidden" name="Success" value="contact-success.html" />
-
-                        <input type="hidden" name="URL" value="www.anntan.com.sg" />
-
-                            <div id="enquiry_text_area"><input id="name" class="Name" name="name" size="32" type="text" value="Name"/></div>
-
-                            <div style="clear:both;"></div>
-
-                            <div id="enquiry_text_area"><input id="mobile" onkeypress="return isNumberKey(event)" class="Contact No" name="mobile" size="32" type="text" value="Contact No"/></div>
-
-                            <div style="clear:both;"></div>
-
-                            <div id="enquiry_text_area"><input id="email" class="Email" name="email" size="32" type="text" value="Email"/></div>
-
-                            <div style="clear:both;"></div>
-
-                            <div id="enquiry_text_area"><textarea rows="3" cols="30" id="message" name="message" class="Message">Message</textarea></div>
-
-                            <div style="clear:both;"></div>
-
-                            <div id="enquiry_text_area" style="float:left;">
-
-								<table width="100%" border="0" cellspacing="0" cellpadding="0">
-
-                                	<tr>
-
-                                    	<td><img id="captchaImage" src="https://www.anntan.com.sg/captcha/CaptchaSecurityImages.php?width=140&amp;height=35&amp;characters=6" /></td>
-
-                                        <td align="right"><a onclick="document.getElementById('captchaImage').src = 'https://www.anntan.com.sg/captcha/CaptchaSecurityImages.php?width=140&amp;height=35&amp;characters=6&sid=' + Math.random(); this.blur(); return false" title="Refresh Image" href="#"><img onclick="this.blur()" alt="Reload Image" src="../images/refresh-button.png" id="refreshBtn" style="cursor: pointer; margin-top:5px; border-style: none; border: 0px;" /></a></td>
-
-									</tr>
-
-								</table>
-
-							</div>
-
-                            <div style="clear:both;"></div>
-
-                            <div id="enquiry_text_area"><input id="captcha" class="Security Code" size="32" type="text" value="Security Code"/></div>
-
-                            <div style="clear:both;"></div>
-
-                            <div id="enquiry_text_area">
-
-                            	<input name="submit" type="submit" id="submitBtn" value="Submit" />
-
-							</div>
-
-                        </form>
-
-						<script type="text/javascript">
-
-                                for ( var i = 0; i < document.forms['form1'].elements.length; i++ ) {
-
-                                    var formobj = document.forms['form1'];
-
-                                    var e = formobj.elements[i];
-
-                                    var f = formobj.elements[i];
-
-                                    var val = e.value;
-
-                                   if(e.type == "text"){
-
-                                        e.focused = false;
-
-                                        e.hasFocus = function() {
-
-                                            return this.focused;
-
-                                        };
-
-                                        e.onfocus=function() {
-
-                                            if(this.value == this.className){
-
-                                                this.value = "";
-
-                                            }
-
-                                        };
-
-                                        e.onblur=function() {
-
-                                            if(this.value == ""){
-
-                                                this.value = this.className;
-
-                                
-
-                                            }
-
-                                        };
-
-                                   }
-
-                                   if(f.type == "textarea"){
-
-                                        f.focused = false;
-
-                                        f.hasFocus = function() {
-
-                                            return this.focused;
-
-                                        };
-
-                                        f.onfocus=function() {
-
-                                            if(this.value == this.className){
-
-                                                this.value = "";
-
-                                            }
-
-                                        };
-
-                                        f.onblur=function() {
-
-                                            if(this.value == ""){
-
-                                                this.value = this.className;
-
-                                
-
-                                            }
-
-                                        };
-
-                                   }
-
-                                }
-
-						</script>
-
+                    	<!-- feedback.activamedia.com.sg script begins here --><script type="text/javascript" defer src="https://feedback.activamedia.com.sg/embed/2542720.js" data-role="form" data-default-width="650px"></script><!-- feedback.activamedia.com.sg script ends here -->
                     </div>
 
                 </div>
