@@ -32,6 +32,13 @@ footer,header,nav,section{
     margin:0;
     padding:0
 }
+ #inner_content_textarea ul.circle-list li{
+            color:#ffffff!important;
+	    }
+	    #inner_content_textarea ul.circle-list li a{
+		    color:#ffffff!important;
+		    text-decoration:underline;
+        }
 #reply-title:after,#reply-title:before,.clear:after,.clear:before,[class*=site]:after,[class*=site]:before{
     content:"";
     display:table
@@ -208,6 +215,13 @@ td.add-text{
     color:#f3e1b0;
     font-weight:600
 }
+ #inner_content_textarea ul.circle-list li{
+            color:#ffffff!important;
+	    }
+	    #inner_content_textarea ul.circle-list li a{
+		    color:#ffffff!important;
+		    text-decoration:underline;
+        }
 @media screen and (min-width:280px),print{
     #call_text,#language_area,.call_text,a.call_tel_text{
         font-family:Lato,sans-serif
