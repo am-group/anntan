@@ -32,12 +32,164 @@ footer,header,nav,section{
     margin:0;
     padding:0
 }
+
+/* Our Services New CSS start */
+
+h1{
+    text-align: left;
+    color: #fff;
+    /*font-size: 22px;
+    letter-spacing: .4em;*/
+    text-transform: uppercase;
+    font-weight: 600;
+  } 
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }  
+  .container-fluid {
+    padding: 0px 0px;
+  }
+  .breadcrumb {
+    padding: 0px 0px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: transparent;
+    border-radius: 4px;
+  }  
+  .logo-small-01 {
+    color: #f4511e;
+    font-size: 50px;
+    background-image: url(../images/obstetrics-icon.png);
+    width: 113px;
+    height: 113px;
+  }
+  .logo-small-02 {    
+    background-image: url(../images/gynaecology-icon.png);
+    width: 113px;
+    height: 113px;
+  }
+  .logo-small-03 {    
+    background-image: url(../images/female-health-screening-icon.png);
+    width: 113px;
+    height: 113px;
+  }
+  .logo-small-04 {    
+    background-image: url(../images/infertility-icon.png);
+    width: 113px;
+    height: 113px;
+  }
+  .logo-small-05 {    
+    background-image: url(../images/menstrual-problems-icon.png);
+    width: 113px;
+    height: 113px;
+  }
+  .logo-small-06 {    
+    background-image: url(../images/vaginal-infections-icon.png);
+    width: 113px;
+    height: 113px;
+  }
+  .logo-small-07 {    
+    background-image: url(../images/gynaecological-cancer-management-icon.png);
+    width: 113px;
+    height: 113px;
+  }
+  .logo-small-08 {    
+    background-image: url(../images/contraception-icon.png);
+    width: 113px;
+    height: 113px;
+  }
+  .logo-small-09 {    
+    background-image: url(../images/minimally-invasive-surgery-icon.png);
+    width: 113px;
+    height: 113px;
+  }
+  .logo-small-10 {    
+    background-image: url(../images/management-of-uterine-icon.png);
+    width: 113px;
+    height: 113px;
+  }
+  .logo {
+    color: #f4511e;
+    font-size: 200px;
+  }  
+  .item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+  }
+  .item span {
+    font-style: normal;
+  } 
+  
+  .slideanim {visibility:visible; z-index:0; display:block;}
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {    
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .col-sm-3 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 150px;
+    }
+  }
+
+/* Our Services New CSS End */
+
  #inner_content_textarea ul.circle-list li{
             color:#ffffff!important;
-	    }
-	    #inner_content_textarea ul.circle-list li a{
-		    color:#ffffff!important;
-		    text-decoration:underline;
+        }
+#inner_content_textarea ul.circle-list li a{
+            color:#ffffff!important;
+            text-decoration:underline;
         }
 #reply-title:after,#reply-title:before,.clear:after,.clear:before,[class*=site]:after,[class*=site]:before{
     content:"";
@@ -276,10 +428,10 @@ td.add-text{
 }
  #inner_content_textarea ul.circle-list li{
             color:#ffffff!important;
-	    }
-	    #inner_content_textarea ul.circle-list li a{
-		    color:#ffffff!important;
-		    text-decoration:underline;
+        }
+        #inner_content_textarea ul.circle-list li a{
+            color:#ffffff!important;
+            text-decoration:underline;
         }
 @media screen and (min-width:280px),print{
     #call_text,#language_area,.call_text,a.call_tel_text{
@@ -11306,10 +11458,12 @@ td.add-text{
     #box_3_area,#box_4_area{
         background-position:right top
     }
+    #inner_content_textarea p.text-center{text-align:center; display:block;}
     .message-height{
         padding-top:15px;
         font-size:15px
     }
+    .desktop-height{ height:24px; display:block; }   
     .site{
         margin:0;
         padding:0;
@@ -12751,6 +12905,8 @@ td.add-text{
     a.call_tel_text{
         letter-spacing:1px
     }
+    .desktop-height{ height:0px; display:block; }  
+    #inner_content_textarea p.text-center{text-align:center; display:block;}
 }
 @media (max-width:415px){
     #call_text span.num,.call_text span.num,a.call_tel_text:hover{
@@ -13360,7 +13516,8 @@ td.add-text{
         border-top:10px solid #c01f39;
         top:0;
         left:0;
-        background:#f7f7f7
+        background:#f7f7f7;
+        z-index: 2;
     }
     #fixedBottomBlock{
         bottom:0;
@@ -13826,7 +13983,7 @@ footer {
 }
 
 @media (min-width: 576px) {
-	
+    
 }
 
 @media (min-width: 768px) {
