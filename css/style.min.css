@@ -246,27 +246,35 @@ td.add-text{
     font-size: 18px;
     width: 40%;
     list-style: none;
+
 }
 .service-list li {
-    margin: 0 0 15px;
+    margin: 0 0 5px;
     text-align: left;
     padding-left: 20px;
-    position: relative;
-
+   position: relative;
 }
 
 .service-list li a {
     text-decoration: underline;
+    z-index: 1;
+    position: relative;
+    font-size: 15px;
 }
 .service-list li::before {
-    content: "\f111";
+    content: "";
+    background: url(../images/list.png) left center no-repeat;
     font-family: FontAwesome;
     font-size: 9px;
+    padding-left: 30px;
     position: absolute;
     left: 0;
     height: 100%;
     width: 100%;
 
+}
+.color-black {
+    color: #000!important;
 }
 @media screen and (max-width:480px) {
     .service-list  {
