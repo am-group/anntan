@@ -3846,7 +3846,8 @@ td.add-text{
     #inner_content_textarea p{
         margin:0 0 20px;
         line-height:24px;
-        color:#000
+        color:#000;
+        text-align: center;
     }
     #inner_content_title,#media_content_small_title,#media_content_text{
         color:#000;
@@ -7753,7 +7754,8 @@ td.add-text{
     #inner_content_textarea p{
         margin:0 0 20px;
         line-height:24px;
-        color:#000
+        color:#000;
+        text-align: center;
     }
     #inner_content_title,#media_content_small_title,#media_content_text{
         color:#000;
@@ -10593,7 +10595,8 @@ td.add-text{
     #inner_content_textarea p{
         margin:0 0 20px;
         line-height:24px;
-        color:#000
+        color:#000;
+        text-align: center;
     }
     #inner_content_title,#media_content_small_title,#media_content_text{
         color:#000;
@@ -11508,7 +11511,7 @@ td.add-text{
     #box_3_area,#box_4_area{
         background-position:right top
     }
-    #inner_content_textarea p.text-center{text-align:left; display:block;}
+    #inner_content_textarea p.text-center{text-align:center; display:block;}
     .message-height{
         padding-top:15px;
         font-size:15px
@@ -12956,7 +12959,7 @@ td.add-text{
         letter-spacing:1px
     }
     .desktop-height{ height:0px; display:block; }  
-    #inner_content_textarea p.text-center{text-align:left; display:block;}
+    #inner_content_textarea p.text-center{text-align:center; display:block;}
 }
 @media (max-width:415px){
     #call_text span.num,.call_text span.num,a.call_tel_text:hover{
