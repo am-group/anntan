@@ -171,6 +171,22 @@ SECTIONS
 /*
 COMMON
 */
+.hide {
+	display: none;
+}
+strong.small-title {
+	font-size: 22px;
+}
+.read-more-hide,.read-more-show {
+	color: #f5e1af;
+	font-weight: 700;
+	margin: 20px 0;
+	display: block;
+
+}
+.read-more-hide:hover,.read-more-show:hover {
+	color: #f5e1af;
+}
 .container .row {
 	padding: 0 10px;
 }

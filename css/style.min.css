@@ -32,7 +32,9 @@ footer,header,nav,section{
     margin:0;
     padding:0
 }
-
+p strong {
+    font-weight: 700;
+}
 /* Our Services New CSS start */
 
 #inner_content_textarea #services p {
