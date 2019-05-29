@@ -168,6 +168,19 @@ SECTIONS
 /*
 COMMON
 */
+.hide {
+	display: none;
+}
+strong.small-title {
+	font-size: 22px;
+}
+.read-more-hide,.read-more-show {
+	color: #f5e1af;
+	font-weight: 700;
+	margin: 20px 0;
+	display: block;
+
+}
 .container .row {
 	padding: 0 10px;
 }
